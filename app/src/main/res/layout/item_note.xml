@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#FF6458"
+            android:textSize="25dp"
+            android:layout_gravity="bottom"
+            android:background="#DCFFB3"
+            android:id="@+id/tv_id"
+            android:layout_width="70dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#3D51BC"
+            android:textSize="20dp"
+            android:background="#FDFFBF"
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+        <TextView
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#3D51BC"
+            android:textSize="20dp"
+            android:background="#FDFFBF"
+            android:id="@+id/tv_date"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+        <TextView
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:background="#FDFFBF"
+            android:id="@+id/tv_note"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</LinearLayout>
+</androidx.cardview.widget.CardView>

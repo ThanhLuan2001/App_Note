@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/BaiTap/BaiTestt/app/src/main/res/drawable/bg_dialog.xml" value="0.181" />
+        <entry key="..\:/BaiTap/BaiTestt/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/BaiTap/BaiTestt/app/src/main/res/layout/activity_them_note.xml" value="0.36666666666666664" />
+        <entry key="..\:/BaiTap/BaiTestt/app/src/main/res/layout/dialog.xml" value="0.36666666666666664" />
+        <entry key="..\:/BaiTap/BaiTestt/app/src/main/res/layout/item_note.xml" value="0.36666666666666664" />
+        <entry key="..\:/MONHOC/BaiTestt/app/src/main/res/layout/activity_main.xml" value="0.20969202898550723" />
+        <entry key="..\:/MONHOC/BaiTestt/app/src/main/res/layout/activity_them_note.xml" value="0.12158054711246201" />
+        <entry key="..\:/MONHOC/BaiTestt/app/src/main/res/layout/dialog.xml" value="0.25" />
+        <entry key="..\:/MONHOC/BaiTestt/app/src/main/res/layout/item_note.xml" value="0.2" />
+        <entry key="..\:/MONHOC/On_Luyen/Android/App_Note/app/src/main/res/layout/dialog.xml" value="0.22327898550724637" />
+        <entry key="..\:/MONHOC/On_Luyen/Android/BaiTest_CTY/BaiTest2_CongTy/app/src/main/res/layout/activity_them_note.xml" value="0.22327898550724637" />
+        <entry key="..\:/MONHOC/On_Luyen/Android/BaiTest_CTY/BaiTest2_CongTy/app/src/main/res/layout/dialog.xml" value="0.22327898550724637" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:background="#65EEFF"
+        android:id="@+id/toolbar_note"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:text="Nguyễn Thành Luận"
+            android:layout_width="200dp"
+            android:layout_height="?attr/actionBarSize"/>
+        <ImageView
+            android:id="@+id/img_add"
+            android:layout_marginRight="50dp"
+            android:layout_gravity="right"
+            android:layout_width="50dp"
+            android:layout_height="?attr/actionBarSize"
+            android:src="@android:drawable/ic_input_add"/>
+    </androidx.appcompat.widget.Toolbar>
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Hiển thị thời gian"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25dp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_note"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"/>
+
+
+</LinearLayout>
